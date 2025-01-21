@@ -21,7 +21,7 @@ function sendWhatsAppMessage(event) {
         return;
     }
 
-    const phoneNumber = '628123456789'; // Ganti dengan nomor Anda
+    const phoneNumber = '628979928353'; // Ganti dengan nomor Anda
     const text = `Halo, saya ${name}.%0AEmail: ${email}%0APesan:%0A${message}`;
 
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${text}`;
